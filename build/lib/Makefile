@@ -186,6 +186,30 @@ emu/fast:
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/build
 .PHONY : emu/fast
 
+bus.o: bus.c.o
+.PHONY : bus.o
+
+# target to build an object file
+bus.c.o:
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.o
+.PHONY : bus.c.o
+
+bus.i: bus.c.i
+.PHONY : bus.i
+
+# target to preprocess a source file
+bus.c.i:
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.i
+.PHONY : bus.c.i
+
+bus.s: bus.c.s
+.PHONY : bus.s
+
+# target to generate assembly for a file
+bus.c.s:
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/bus.c.s
+.PHONY : bus.c.s
+
 cart.o: cart.c.o
 .PHONY : cart.o
 
@@ -234,6 +258,30 @@ cpu.c.s:
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu.c.s
 .PHONY : cpu.c.s
 
+cpu_util.o: cpu_util.c.o
+.PHONY : cpu_util.o
+
+# target to build an object file
+cpu_util.c.o:
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_util.c.o
+.PHONY : cpu_util.c.o
+
+cpu_util.i: cpu_util.c.i
+.PHONY : cpu_util.i
+
+# target to preprocess a source file
+cpu_util.c.i:
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_util.c.i
+.PHONY : cpu_util.c.i
+
+cpu_util.s: cpu_util.c.s
+.PHONY : cpu_util.s
+
+# target to generate assembly for a file
+cpu_util.c.s:
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/cpu_util.c.s
+.PHONY : cpu_util.c.s
+
 emu.o: emu.c.o
 .PHONY : emu.o
 
@@ -257,6 +305,30 @@ emu.s: emu.c.s
 emu.c.s:
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/emu.c.s
 .PHONY : emu.c.s
+
+instructions.o: instructions.c.o
+.PHONY : instructions.o
+
+# target to build an object file
+instructions.c.o:
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/instructions.c.o
+.PHONY : instructions.c.o
+
+instructions.i: instructions.c.i
+.PHONY : instructions.i
+
+# target to preprocess a source file
+instructions.c.i:
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/instructions.c.i
+.PHONY : instructions.c.i
+
+instructions.s: instructions.c.s
+.PHONY : instructions.s
+
+# target to generate assembly for a file
+instructions.c.s:
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build && $(MAKE) $(MAKESILENT) -f lib/CMakeFiles/emu.dir/build.make lib/CMakeFiles/emu.dir/instructions.c.s
+.PHONY : instructions.c.s
 
 ppu.o: ppu.c.o
 .PHONY : ppu.o
@@ -320,15 +392,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... emu"
+	@echo "... bus.o"
+	@echo "... bus.i"
+	@echo "... bus.s"
 	@echo "... cart.o"
 	@echo "... cart.i"
 	@echo "... cart.s"
 	@echo "... cpu.o"
 	@echo "... cpu.i"
 	@echo "... cpu.s"
+	@echo "... cpu_util.o"
+	@echo "... cpu_util.i"
+	@echo "... cpu_util.s"
 	@echo "... emu.o"
 	@echo "... emu.i"
 	@echo "... emu.s"
+	@echo "... instructions.o"
+	@echo "... instructions.i"
+	@echo "... instructions.s"
 	@echo "... ppu.o"
 	@echo "... ppu.i"
 	@echo "... ppu.s"

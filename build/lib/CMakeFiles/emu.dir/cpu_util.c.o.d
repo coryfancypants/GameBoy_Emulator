@@ -1,5 +1,5 @@
-lib/CMakeFiles/emu.dir/cpu.c.o: \
- /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu.c \
+lib/CMakeFiles/emu.dir/cpu_util.c.o: \
+ /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_util.c \
  /usr/include/stdc-predef.h \
  /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/cpu.h \
  /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/common.h \
@@ -38,6 +38,4 @@ lib/CMakeFiles/emu.dir/cpu.c.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-float.h \
- /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/instructions.h \
- /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/bus.h \
- /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/emu.h
+ /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/instructions.h

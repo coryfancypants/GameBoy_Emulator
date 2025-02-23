@@ -16,10 +16,10 @@
 */
 
 
-static emu_context context;
+static emu_context ctx;
 
 emu_context *emu_get_context() {
-    return &context;
+    return &ctx;
 }
 
 void delay(u32 ms) {
@@ -46,12 +46,12 @@ int emu_run(int argc, char **argv) {
 
     cpu_init();
 
-    context.running = true;
-    context.paused = false;
-    context.ticks = 0;
+    ctx.running = true;
+    ctx.paused = false;
+    ctx.ticks = 0;
 
-    while(context.running) {
-        if (context.paused) {
+    while(ctx.running) {
+        if (ctx.paused) {
             delay(10);
             continue;
         }
@@ -61,9 +61,12 @@ int emu_run(int argc, char **argv) {
             return -3;
         }
 
-        context.ticks++;
+        ctx.ticks++;
     }
 
     return 0;
 }
 
+void emu_cycles(int cpu_cycles) {
+    //TODO
+}

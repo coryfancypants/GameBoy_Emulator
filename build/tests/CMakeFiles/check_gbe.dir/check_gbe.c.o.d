@@ -47,4 +47,5 @@ tests/CMakeFiles/check_gbe.dir/check_gbe.c.o: \
  /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/emu.h \
  /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdbool.h \
- /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/cpu.h
+ /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/cpu.h \
+ /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/instructions.h

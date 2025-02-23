@@ -41,6 +41,7 @@ lib/CMakeFiles/emu.dir/emu.c.o: \
  /usr/include/bits/stdlib-float.h \
  /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/cart.h \
  /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/cpu.h \
+ /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/instructions.h \
  /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
  /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
  /usr/include/SDL2/SDL_platform.h /usr/include/SDL2/begin_code.h \

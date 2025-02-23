@@ -10,6 +10,7 @@ set(OLD_GLOB
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/include/common.h"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/include/cpu.h"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/include/emu.h"
+  "/home/coryguzman/usr/dev/c/GameBoy_Emulator/include/instructions.h"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/include/ppu.h"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/include/timer.h"
   )
@@ -21,9 +22,12 @@ endif()
 # sources at lib/CMakeLists.txt:3 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/*.c")
 set(OLD_GLOB
+  "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/bus.c"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cart.c"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu.c"
+  "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_util.c"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/emu.c"
+  "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/instructions.c"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/ppu.c"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/timer.c"
   )
