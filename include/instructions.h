@@ -108,9 +108,11 @@ typedef struct {
     addr_mode mode;
     reg_type reg_1;
     reg_type reg_2;
-    cond_type condition;
+    cond_type cond;
     u8 param;
 } instruction;
 
 
 instruction *instruction_by_opcode(u8 opcode);
+
+char *inst_name(in_type t);

@@ -25,6 +25,7 @@ set(OLD_GLOB
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/bus.c"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cart.c"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu.c"
+  "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_proc.c"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_util.c"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/emu.c"
   "/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/instructions.c"

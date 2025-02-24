@@ -114,10 +114,24 @@ lib/CMakeFiles/emu.dir/cpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/cpu.c.s"
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu.c -o CMakeFiles/emu.dir/cpu.c.s
 
+lib/CMakeFiles/emu.dir/cpu_proc.c.o: lib/CMakeFiles/emu.dir/flags.make
+lib/CMakeFiles/emu.dir/cpu_proc.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_proc.c
+lib/CMakeFiles/emu.dir/cpu_proc.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CMakeFiles/emu.dir/cpu_proc.c.o"
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cpu_proc.c.o -MF CMakeFiles/emu.dir/cpu_proc.c.o.d -o CMakeFiles/emu.dir/cpu_proc.c.o -c /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_proc.c
+
+lib/CMakeFiles/emu.dir/cpu_proc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/emu.dir/cpu_proc.c.i"
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_proc.c > CMakeFiles/emu.dir/cpu_proc.c.i
+
+lib/CMakeFiles/emu.dir/cpu_proc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/emu.dir/cpu_proc.c.s"
+	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_proc.c -o CMakeFiles/emu.dir/cpu_proc.c.s
+
 lib/CMakeFiles/emu.dir/cpu_util.c.o: lib/CMakeFiles/emu.dir/flags.make
 lib/CMakeFiles/emu.dir/cpu_util.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_util.c
 lib/CMakeFiles/emu.dir/cpu_util.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/CMakeFiles/emu.dir/cpu_util.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CMakeFiles/emu.dir/cpu_util.c.o"
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/cpu_util.c.o -MF CMakeFiles/emu.dir/cpu_util.c.o.d -o CMakeFiles/emu.dir/cpu_util.c.o -c /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_util.c
 
 lib/CMakeFiles/emu.dir/cpu_util.c.i: cmake_force
@@ -131,7 +145,7 @@ lib/CMakeFiles/emu.dir/cpu_util.c.s: cmake_force
 lib/CMakeFiles/emu.dir/emu.c.o: lib/CMakeFiles/emu.dir/flags.make
 lib/CMakeFiles/emu.dir/emu.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/emu.c
 lib/CMakeFiles/emu.dir/emu.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/CMakeFiles/emu.dir/emu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CMakeFiles/emu.dir/emu.c.o"
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/emu.c.o -MF CMakeFiles/emu.dir/emu.c.o.d -o CMakeFiles/emu.dir/emu.c.o -c /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/emu.c
 
 lib/CMakeFiles/emu.dir/emu.c.i: cmake_force
@@ -145,7 +159,7 @@ lib/CMakeFiles/emu.dir/emu.c.s: cmake_force
 lib/CMakeFiles/emu.dir/instructions.c.o: lib/CMakeFiles/emu.dir/flags.make
 lib/CMakeFiles/emu.dir/instructions.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/instructions.c
 lib/CMakeFiles/emu.dir/instructions.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/CMakeFiles/emu.dir/instructions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CMakeFiles/emu.dir/instructions.c.o"
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/instructions.c.o -MF CMakeFiles/emu.dir/instructions.c.o.d -o CMakeFiles/emu.dir/instructions.c.o -c /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/instructions.c
 
 lib/CMakeFiles/emu.dir/instructions.c.i: cmake_force
@@ -159,7 +173,7 @@ lib/CMakeFiles/emu.dir/instructions.c.s: cmake_force
 lib/CMakeFiles/emu.dir/ppu.c.o: lib/CMakeFiles/emu.dir/flags.make
 lib/CMakeFiles/emu.dir/ppu.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/ppu.c
 lib/CMakeFiles/emu.dir/ppu.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/CMakeFiles/emu.dir/ppu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/CMakeFiles/emu.dir/ppu.c.o"
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/ppu.c.o -MF CMakeFiles/emu.dir/ppu.c.o.d -o CMakeFiles/emu.dir/ppu.c.o -c /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/ppu.c
 
 lib/CMakeFiles/emu.dir/ppu.c.i: cmake_force
@@ -173,7 +187,7 @@ lib/CMakeFiles/emu.dir/ppu.c.s: cmake_force
 lib/CMakeFiles/emu.dir/timer.c.o: lib/CMakeFiles/emu.dir/flags.make
 lib/CMakeFiles/emu.dir/timer.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/timer.c
 lib/CMakeFiles/emu.dir/timer.c.o: lib/CMakeFiles/emu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/CMakeFiles/emu.dir/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/CMakeFiles/emu.dir/timer.c.o"
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT lib/CMakeFiles/emu.dir/timer.c.o -MF CMakeFiles/emu.dir/timer.c.o.d -o CMakeFiles/emu.dir/timer.c.o -c /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/timer.c
 
 lib/CMakeFiles/emu.dir/timer.c.i: cmake_force
@@ -189,6 +203,7 @@ emu_OBJECTS = \
 "CMakeFiles/emu.dir/bus.c.o" \
 "CMakeFiles/emu.dir/cart.c.o" \
 "CMakeFiles/emu.dir/cpu.c.o" \
+"CMakeFiles/emu.dir/cpu_proc.c.o" \
 "CMakeFiles/emu.dir/cpu_util.c.o" \
 "CMakeFiles/emu.dir/emu.c.o" \
 "CMakeFiles/emu.dir/instructions.c.o" \
@@ -201,6 +216,7 @@ emu_EXTERNAL_OBJECTS =
 lib/libemu.a: lib/CMakeFiles/emu.dir/bus.c.o
 lib/libemu.a: lib/CMakeFiles/emu.dir/cart.c.o
 lib/libemu.a: lib/CMakeFiles/emu.dir/cpu.c.o
+lib/libemu.a: lib/CMakeFiles/emu.dir/cpu_proc.c.o
 lib/libemu.a: lib/CMakeFiles/emu.dir/cpu_util.c.o
 lib/libemu.a: lib/CMakeFiles/emu.dir/emu.c.o
 lib/libemu.a: lib/CMakeFiles/emu.dir/instructions.c.o
@@ -208,7 +224,7 @@ lib/libemu.a: lib/CMakeFiles/emu.dir/ppu.c.o
 lib/libemu.a: lib/CMakeFiles/emu.dir/timer.c.o
 lib/libemu.a: lib/CMakeFiles/emu.dir/build.make
 lib/libemu.a: lib/CMakeFiles/emu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C static library libemu.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/coryguzman/usr/dev/c/GameBoy_Emulator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libemu.a"
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/emu.dir/cmake_clean_target.cmake
 	cd /home/coryguzman/usr/dev/c/GameBoy_Emulator/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/emu.dir/link.txt --verbose=$(VERBOSE)
 

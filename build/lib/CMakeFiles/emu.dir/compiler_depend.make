@@ -197,6 +197,72 @@ lib/CMakeFiles/emu.dir/cpu.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
 
+lib/CMakeFiles/emu.dir/cpu_proc.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_proc.c \
+  /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/common.h \
+  /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/cpu.h \
+  /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/emu.h \
+  /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/instructions.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/sys/select.h \
+  /usr/include/sys/types.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdbool.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h
+
 lib/CMakeFiles/emu.dir/cpu_util.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_util.c \
   /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/common.h \
   /home/coryguzman/usr/dev/c/GameBoy_Emulator/include/cpu.h \
@@ -877,6 +943,8 @@ lib/CMakeFiles/emu.dir/timer.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/li
 
 /usr/include/bits/math-vector.h:
 
+/usr/include/bits/libm-simd-decl-stubs.h:
+
 /usr/include/stdio.h:
 
 /usr/include/linux/limits.h:
@@ -924,8 +992,6 @@ lib/CMakeFiles/emu.dir/timer.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/li
 /usr/include/bits/types/__fpos_t.h:
 
 /usr/include/bits/floatn.h:
-
-/usr/include/SDL2/SDL_version.h:
 
 /usr/include/bits/long-double.h:
 
@@ -1008,6 +1074,10 @@ lib/CMakeFiles/emu.dir/timer.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/li
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clzerointrin.h:
 
 /usr/include/gnu/stubs-64.h:
+
+/usr/include/SDL2/SDL_version.h:
+
+/home/coryguzman/usr/dev/c/GameBoy_Emulator/lib/cpu_proc.c:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -1212,5 +1282,3 @@ lib/CMakeFiles/emu.dir/timer.c.o: /home/coryguzman/usr/dev/c/GameBoy_Emulator/li
 /usr/include/bits/flt-eval-method.h:
 
 /usr/include/bits/fp-logb.h:
-
-/usr/include/bits/libm-simd-decl-stubs.h:
